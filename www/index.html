@@ -9,9 +9,14 @@
 
     <!-- BOOTSTRAP 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/21722ae83d.js" crossorigin="anonymous"></script>
     
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/main.css">
 
@@ -19,40 +24,45 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid mx-4">
-            <a class="navbar-brand" href="index.html">
-                <img src="./img/logo.png" alt="" height="50">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-4" href="index.html">
+                <img src="./img/logo.png" alt="" height="50" class="d-inline-block align-text">
+                <p class="d-inline-block ps-2" style="font-family: 'Orbitron', sans-serif;">S.K.A.T.E</p>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Start</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">How to play</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Project info</a>
-                    </li>
-                </ul>
+            <div class="navbar-right">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Start game</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">How to play</a>
+                        </li>
+                        <li class="nav-item ps-2 pe-4">
+                            <a class="nav-link" href="#">Project info</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
     <main class="container">
         <div class="jumbotron mt-4 bg-dark p-5 text-white rounded-3">
-            <h1 class="display-4">Notes App Nodejs and Mongodb</h1>
-            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1 class="display-4">Online game of S.K.A.T.E</h1>
+            <p class="lead">Online game of S.K.A.T.E project</p>
             <hr class="my-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti eveniet tenetur aspernatur delectus quisquam labore laboriosam illo vero. Consequatur placeat qui fuga doloribus, culpa perspiciatis ipsam iusto blanditiis. Adipisci!</p>
-            <a href="https://Goodlvck.github.io/portfolio" class="btn btn-primary btn-lg">Portfolio</a>
+            <p>Starting this project the day before I turn 18 while I'm recovering from a knee ACL and meniscus surgery, this is my way
+                to improve skateboarding with friends all over the world.
+            </p>
+            <a href="https://github.com/GoodLvck" class="btn btn-primary btn-lg">Github profile</a>
         </div>
     </main>
 
